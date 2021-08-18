@@ -6,11 +6,11 @@ from method_2.module.boundingBox import BoundingBox
 
 # First calculate bbox using method 2, if all coordinates are 0 then use method 1
 
-image_path = '/Users/veersingh/Desktop/Internship/signature-detection-and-extraction/assets/aah97e00-page02_2.tif'
+test_image_path = '/Users/veersingh/Desktop/Internship/signature-detection-and-extraction/assets/aah97e00-page02_2.tif'
 
 # use method 2
 loader = Loader()
-mask = loader.get_masks(image_path)[0]
+mask = loader.get_masks(test_image_path)[0]
 extractor = Extractor(amplfier=15)
 labeled_mask = extractor.extract(mask)
 try:
@@ -23,7 +23,7 @@ except:
 
 # use method 1
 if (xmin and ymin and xmax and ymax) == 0:
-    image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
+    image = cv2.imread(test_image_path, cv2.IMREAD_GRAYSCALE)
     xmin, ymin, xmax, ymax = Signature_removal(image).get_signature_bbox()
 
 # Convert from numpy int64 to integer for JSON serialization

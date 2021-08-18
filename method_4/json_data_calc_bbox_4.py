@@ -9,13 +9,15 @@ images_dir = '/Users/veersingh/Desktop/docs_with_signs_dataset(tobacco800)/image
 json_file_output_dir = '/Users/veersingh/Desktop/docs_with_signs_dataset(tobacco800)'
 
 calculated_values = dict()
+
+# decision tree model
 model = joblib.load("module/models/decision-tree.pkl")
 for filename in os.listdir(images_dir):
     current_image_name = filename
     current_image_path = images_dir + '/' + filename
     print(filename)
 
-    # Use saifkhichi96/signature-extraction method
+    # method 4
     clf = model
     im = cv2.imread(current_image_path, 0)
     mask = extract_signature(im, clf, preprocess=True)

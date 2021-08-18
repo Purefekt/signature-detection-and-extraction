@@ -47,5 +47,7 @@ python -m ipykernel install --user --name=signature-detection-and-extraction
 ## Resources
 - Method 1 --> Signature Extractor - Adapted from https://github.com/ahmetozlu/signature_extractor
 - Method 2 --> Signature Detect - https://pypi.org/project/signature-detect/
-- Method 3 --> Hybrid between Method 1 and 2
+- Method 3 --> Hybrid of Method 1 and 2
 - Method 4 --> https://github.com/saifkhichi96/signature-extraction
+- Method 5 --> Hybrid of Method 1 and 4
+- Method 6 --> Hybrid of 1,2 and 4

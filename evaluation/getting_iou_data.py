@@ -93,6 +93,7 @@ def evaluate_method_3():
     get_evaluation_json(ground_truth_values_json, calculated_values_json,
                         output_json_name)
 
+
 def evaluate_method_4():
     ground_truth_values_json = '/Users/veersingh/Desktop/docs_with_signs_dataset(tobacco800)/ground_truth_bbox.json'
     calculated_values_json = '/Users/veersingh/Desktop/docs_with_signs_dataset(tobacco800)/calculated_bbox_4.json'
@@ -101,7 +102,27 @@ def evaluate_method_4():
     get_evaluation_json(ground_truth_values_json, calculated_values_json,
                         output_json_name)
 
+
+def evaluate_method_5():
+    ground_truth_values_json = '/Users/veersingh/Desktop/docs_with_signs_dataset(tobacco800)/ground_truth_bbox.json'
+    calculated_values_json = '/Users/veersingh/Desktop/docs_with_signs_dataset(tobacco800)/calculated_bbox_5.json'
+    output_json_name = '/Users/veersingh/Desktop/docs_with_signs_dataset(tobacco800)/iou_5.json'
+
+    get_evaluation_json(ground_truth_values_json, calculated_values_json,
+                        output_json_name)
+
+
+def evaluate_method_6():
+    ground_truth_values_json = '/Users/veersingh/Desktop/docs_with_signs_dataset(tobacco800)/ground_truth_bbox.json'
+    calculated_values_json = '/Users/veersingh/Desktop/docs_with_signs_dataset(tobacco800)/calculated_bbox_6.json'
+    output_json_name = '/Users/veersingh/Desktop/docs_with_signs_dataset(tobacco800)/iou_6.json'
+
+    get_evaluation_json(ground_truth_values_json, calculated_values_json,
+                        output_json_name)
+
 # evaluate_method_1()
 # evaluate_method_2()
 # evaluate_method_3()
 # evaluate_method_4()
+# evaluate_method_5()
+# evaluate_method_6()
