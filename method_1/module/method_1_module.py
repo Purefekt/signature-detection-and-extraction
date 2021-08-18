@@ -5,7 +5,7 @@ from skimage import morphology
 import numpy as np
 
 
-class signature_removal:
+class Signature_removal:
     """
     Class Methods:
     process: applies signature detection on the input image. returns image with just the signature and image without
@@ -76,7 +76,7 @@ class signature_removal:
         return signature, img_wo_signature
 
     def get_image_without_signature(self):
-        img_wo_signature = signature_removal.process(self.input_image)[1]
+        img_wo_signature = Signature_removal.process(self.input_image)[1]
         return img_wo_signature
 
     def get_signature_bbox(self):
@@ -86,7 +86,7 @@ class signature_removal:
         (xmax, ymax) -> bottom right edge of bbox
         """
         # Isolate the signature
-        signature = signature_removal.process(self.input_image)[0]
+        signature = Signature_removal.process(self.input_image)[0]
 
         # Apply dilation
         signature = cv2.bitwise_not(signature)
@@ -137,7 +137,7 @@ class signature_removal:
         """
         :return: cropped signature as a numpy array
         """
-        xmin, ymin, xmax, ymax = signature_removal(
+        xmin, ymin, xmax, ymax = Signature_removal(
             self.input_image).get_signature_bbox()
         crop_img = self.input_image[ymin:ymax, xmin:xmax]
 
