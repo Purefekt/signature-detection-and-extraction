@@ -4,7 +4,7 @@ Dataset Used: Tobacco800 http://tc11.cvc.uab.es/datasets/Tobacco800_1
 This dataset has 1290 scanned pages of documents containing printed text, signatures and logos. All images do not have
 a signature, this is also defined in the ground truth data. This script goes through the ground truth xml files and 
 flags and removes the xml and the image files for which there is no signature in the image. There were 776 such images.
-New dataset is here: https://www.kaggle.com/veersingh230799/docs-with-signature
+New dataset is here: https://www.kaggle.com/veersingh230799/documents-with-signatures
 """
 
 ground_truth_dir = '/Users/veersingh/Desktop/docs_with_signs_dataset(tobacco800)/ground_truth_xml'

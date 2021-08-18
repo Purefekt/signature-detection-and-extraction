@@ -6,7 +6,7 @@ from method_2.module.boundingBox import BoundingBox
 
 # First calculate bbox using method 2, if all coordinates are 0 then use method 1
 
-image_path = '/Users/veersingh/Desktop/signature-detection-and-extraction/assets/aah97e00-page02_2.tif'
+image_path = '/Users/veersingh/Desktop/Internship/signature-detection-and-extraction/assets/aah97e00-page02_2.tif'
 
 # use method 2
 loader = Loader()

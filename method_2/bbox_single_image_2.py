@@ -2,7 +2,7 @@ from method_2.module.loader import Loader
 from method_2.module.extractor import Extractor
 from method_2.module.boundingBox import BoundingBox
 
-path = '/Users/veersingh/Desktop/signature-detection-and-extraction/assets/aah97e00-page02_2.tif'
+path = '/Users/veersingh/Desktop/Internship/signature-detection-and-extraction/assets/aah97e00-page02_2.tif'
 
 loader = Loader()
 mask = loader.get_masks(path)[0]

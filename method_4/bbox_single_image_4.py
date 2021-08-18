@@ -4,7 +4,7 @@ import joblib
 import numpy as np
 
 
-input_image = '/Users/veersingh/Desktop/signature-detection-and-extraction/assets/aah97e00-page02_2.tif'
+input_image = '/Users/veersingh/Desktop/Internship/signature-detection-and-extraction/assets/aah97e00-page02_2.tif'
 
 # decision tree model
 model = joblib.load("module/models/decision-tree.pkl")

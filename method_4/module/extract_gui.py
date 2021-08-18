@@ -5,7 +5,7 @@ import numpy as np
 import tkinter as tk
 import time
 
-from core import extract_signature
+from method_4.module.core import extract_signature
 from PIL import Image, ImageTk
 from tkinter import filedialog
 
