@@ -30,3 +30,22 @@ opencv-contrib package will have to be built from source with NONFREE flag set. 
 CMAKE_ARGS="-DOPENCV_ENABLE_NONFREE=ON" pip install --no-binary=opencv-contrib-python opencv-contrib-python
 
 ```
+```
+conda install -c anaconda scikit-image
+
+conda install -c conda-forge notebook
+
+conda install ipykernel
+
+conda install -c anaconda pandas
+```
+To use conda environment in Jupyter Notebook, issue the following command
+```
+python -m ipykernel install --user --name=signature-detection-and-extraction
+```
+
+## Resources
+- Method 1 --> Signature Extractor - Adapted from https://github.com/ahmetozlu/signature_extractor
+- Method 2 --> Signature Detect - https://pypi.org/project/signature-detect/
+- Method 3 --> Hybrid between Method 1 and 2
+- Method 4 --> https://github.com/saifkhichi96/signature-extraction
