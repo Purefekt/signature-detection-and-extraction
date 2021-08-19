@@ -1,6 +1,11 @@
 # Signature Detection and Extraction
 
-## Install with conda
+## Install prerequisites
+ImageMagick (for macOS use brew)
+```
+brew install imagemagick
+```
+## Install python packages with conda
 **Note** --> Install all packages one by one, requirements.txt has some issues because of different channels and opencv-contrib needs to be built from source.
 
 Create conda environment with the name **signature-detection-and-extraction** and activate virtual environment

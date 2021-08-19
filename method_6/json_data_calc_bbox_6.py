@@ -7,7 +7,7 @@ import numpy as np
 from method_2.module.loader import Loader
 from method_2.module.extractor import Extractor
 from method_2.module.boundingBox import BoundingBox
-from method_1.module.method_1_module import Signature_removal
+from method_1.module.signature_removal import Signature_removal
 
 images_dir = '/Users/veersingh/Desktop/docs_with_signs_dataset(tobacco800)/images'
 json_file_output_dir = '/Users/veersingh/Desktop/docs_with_signs_dataset(tobacco800)'

@@ -33,6 +33,7 @@ dataset_dir = '/Users/veersingh/Desktop/docs_with_signs_dataset(tobacco800)/imag
 output_dir = '/Users/veersingh/Desktop/docs_with_signs_dataset(tobacco800)/images_less_than_10'
 
 # Copy images which have less than 10% iou on all 4 methods
+total_images = 0
 for filename in iou_1_data.keys():
     if iou_1_data[filename]['iou_in_percentage'] < 10:
         if iou_2_data[filename]['iou_in_percentage'] < 10:
@@ -41,7 +42,10 @@ for filename in iou_1_data.keys():
                     if iou_5_data[filename]['iou_in_percentage'] < 10:
                         if iou_6_data[filename]['iou_in_percentage'] < 10:
                             print(filename)
-                            # Copy this file to the new directory
-                            source = dataset_dir + '/' + filename
-                            destination = output_dir + '/' + filename
-                            copyfile(source, destination)
+                            # # Copy this file to the new directory
+                            # source = dataset_dir + '/' + filename
+                            # destination = output_dir + '/' + filename
+                            # copyfile(source, destination)
+                            total_images = total_images + 1
+
+print(total_images)

@@ -5,7 +5,7 @@ import numpy as np
 from method_2.module.loader import Loader
 from method_2.module.extractor import Extractor
 from method_2.module.boundingBox import BoundingBox
-from method_1.module.method_1_module import Signature_removal
+from method_1.module.signature_removal import Signature_removal
 
 test_image_path = '/Users/veersingh/Desktop/Internship/signature-detection-and-extraction/assets/aah97e00-page02_2.tif'
 

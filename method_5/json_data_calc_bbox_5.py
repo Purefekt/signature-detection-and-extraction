@@ -4,7 +4,7 @@ import cv2
 from method_4.module.core import extract_signature
 import joblib
 import numpy as np
-from method_1.module.method_1_module import Signature_removal
+from method_1.module.signature_removal import Signature_removal
 
 images_dir = '/Users/veersingh/Desktop/docs_with_signs_dataset(tobacco800)/images'
 json_file_output_dir = '/Users/veersingh/Desktop/docs_with_signs_dataset(tobacco800)'

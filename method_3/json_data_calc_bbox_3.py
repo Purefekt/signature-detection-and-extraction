@@ -1,7 +1,7 @@
 import os
 import json
 import cv2
-from method_1.module.method_1_module import Signature_removal
+from method_1.module.signature_removal import Signature_removal
 from method_2.module.loader import Loader
 from method_2.module.extractor import Extractor
 from method_2.module.boundingBox import BoundingBox

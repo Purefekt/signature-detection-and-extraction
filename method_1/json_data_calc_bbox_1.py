@@ -1,5 +1,5 @@
 import cv2
-from method_1.module.method_1_module import Signature_removal
+from method_1.module.signature_removal import Signature_removal
 import os
 import json
 
