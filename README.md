@@ -1,5 +1,8 @@
 # Signature Detection and Extraction
 
+## Evaluating Different Resources
+This Jupyter notebook contains the evaluation - [evaluating_different_signature_detection_methods.ipynb](evaluating_different_signature_detection_methods.ipynb)
+
 ## Install prerequisites
 ImageMagick (for macOS use brew)
 ```
@@ -50,9 +53,9 @@ python -m ipykernel install --user --name=signature-detection-and-extraction
 ```
 
 ## Resources
-- Method 1 --> Signature Extractor - Adapted from https://github.com/ahmetozlu/signature_extractor
-- Method 2 --> Signature Detect - https://pypi.org/project/signature-detect/
+- Method 1 --> Adapted from https://github.com/ahmetozlu/signature_extractor
+- Method 2 --> https://github.com/EnzoSeason/signature_detection
 - Method 3 --> Hybrid of Method 1 and 2
-- Method 4 --> https://github.com/saifkhichi96/signature-extraction
+- Method 4 --> Adapted from https://github.com/saifkhichi96/signature-extraction
 - Method 5 --> Hybrid of Method 1 and 4
 - Method 6 --> Hybrid of 1,2 and 4

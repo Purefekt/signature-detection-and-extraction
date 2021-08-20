@@ -131,7 +131,7 @@ class Signature_removal:
             xmax = xmin + w
             ymax = ymin + h
 
-        return xmin, ymin, xmax, ymax
+        return [xmin, ymin, xmax, ymax]
 
     def get_detected_signature(self):
         """

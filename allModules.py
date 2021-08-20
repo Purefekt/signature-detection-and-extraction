@@ -62,9 +62,9 @@ class AllModules:
         bbox_coords = [xmin, ymin, xmax, ymax]
         return bbox_coords
 
-    def method_4(self):
+    def method_4(self, model_path="method_4/module/models/decision-tree.pkl"):
         # decision tree model
-        model = joblib.load("method_4/module/models/decision-tree.pkl")
+        model = joblib.load(model_path)
         clf = model
 
         im = cv2.imread(self.input_image_path, 0)
@@ -85,11 +85,11 @@ class AllModules:
         bbox_coords = [xmin, ymin, xmax, ymax]
         return bbox_coords
 
-    def method_5(self):
+    def method_5(self, model_path="method_5/models/decision-tree.pkl"):
         # apply method 4 first then method 1
 
         # decision tree model
-        model = joblib.load("method_5/models/decision-tree.pkl")
+        model = joblib.load(model_path)
         clf = model
 
         im = cv2.imread(self.input_image_path, 0)
@@ -115,11 +115,11 @@ class AllModules:
         bbox_coords = [xmin, ymin, xmax, ymax]
         return bbox_coords
 
-    def method_6(self):
+    def method_6(self, model_path="method_6/models/decision-tree.pkl"):
         # apply method 4 then 2 then 1
 
         # decision tree model
-        model = joblib.load("method_6/models/decision-tree.pkl")
+        model = joblib.load(model_path)
         clf = model
 
         im = cv2.imread(self.input_image_path, 0)

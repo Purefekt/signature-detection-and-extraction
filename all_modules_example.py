@@ -1,6 +1,6 @@
 from allModules import AllModules
 
-input_image_path = '/Users/veersingh/Desktop/Internship/signature-detection-and-extraction/assets/aah97e00-page02_2.tif'
+input_image_path = '/Users/veersingh/Desktop/docs_with_signs_dataset(tobacco800)/images_less_than_10/ail70a00.tif'
 
 method_1_bbox = AllModules(input_image_path=input_image_path).method_1()
 method_2_bbox = AllModules(input_image_path=input_image_path).method_2()
