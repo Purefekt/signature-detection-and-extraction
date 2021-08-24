@@ -10,3 +10,6 @@ __pycache__/
 
 # PyCharm Files
 .idea
+
+# Basic CNN model > 100MB cannot be pushed
+cnn/basic_cnn_model.h5
