@@ -12,4 +12,5 @@ __pycache__/
 .idea
 
 # Basic CNN model > 100MB cannot be pushed
-cnn/basic_cnn_model.h5
+cnn/basic_cnn_model_cpu.h5
+cnn/basic_cnn_model_gpu.h5

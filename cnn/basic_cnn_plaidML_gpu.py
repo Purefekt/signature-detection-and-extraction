@@ -1,5 +1,16 @@
-from tensorflow import keras
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
+# to use plaidML as backend
+# activate project environment
+# plaidml-setup
+# enable experimental device support: y
+# use 1,2,3.. to select CPU, GPU etc
+from os import environ
+environ["KERAS_BACKEND"] = "plaidml.keras.backend"
+
+import keras
+from keras.preprocessing.image import ImageDataGenerator
+import time
+start_time = time.time()
+print(keras.backend.backend())
 
 train = ImageDataGenerator(rescale=1 / 255)
 test = ImageDataGenerator(rescale=1 / 255)
@@ -52,8 +63,10 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
 # steps_per_epoch = train_imagesize/batch_size
 model.fit_generator(train_dataset,
                     steps_per_epoch=27,
-                    epochs=30,
+                    epochs=25,
                     validation_data=cross_validation_dataset
                     )
 
-model.save('/Users/veersingh/Desktop/Internship/signature-detection-and-extraction/cnn/basic_cnn_model.h5')
+model.save('/Users/veersingh/Desktop/Internship/signature-detection-and-extraction/cnn/basic_cnn_model_gpu.h5')
+
+print("--- %s seconds ---" % (time.time() - start_time))
