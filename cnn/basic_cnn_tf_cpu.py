@@ -1,8 +1,11 @@
+from os import environ
+environ["KERAS_BACKEND"] = "tensorflow"
+
 from tensorflow import keras
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import time
 start_time = time.time()
-print(keras.backend.backend())
+print(f'Backend --> {keras.backend.backend()}')
 
 train = ImageDataGenerator(rescale=1 / 255)
 test = ImageDataGenerator(rescale=1 / 255)
