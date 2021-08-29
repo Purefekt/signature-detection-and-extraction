@@ -107,7 +107,7 @@ H = model.fit(
 
 # serialize the model to disk
 print("[INFO] saving object detector model...")
-model.save(config.model_path, save_format="h5")
+model.save(config.model_path)
 # plot the model training history
 N = config.NUM_EPOCHS
 plt.style.use("ggplot")
