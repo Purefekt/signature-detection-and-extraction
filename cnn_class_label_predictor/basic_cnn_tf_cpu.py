@@ -10,13 +10,13 @@ print(f'Backend --> {keras.backend.backend()}')
 train = ImageDataGenerator(rescale=1 / 255)
 test = ImageDataGenerator(rescale=1 / 255)
 
-train_dataset = train.flow_from_directory("/Users/veersingh/Desktop/tobacco800/cnn/train",
+train_dataset = train.flow_from_directory("/Users/veersingh/Desktop/tobacco800/cnn_class_label_predictor/train",
                                           target_size=(256, 256),
                                           batch_size=32,
                                           class_mode='binary',
                                           color_mode='grayscale')
 
-cross_validation_dataset = test.flow_from_directory("/Users/veersingh/Desktop/tobacco800/cnn/cross_validation",
+cross_validation_dataset = test.flow_from_directory("/Users/veersingh/Desktop/tobacco800/cnn_class_label_predictor/cross_validation",
                                                     target_size=(256, 256),
                                                     batch_size=32,
                                                     class_mode='binary',
@@ -62,6 +62,6 @@ model.fit_generator(train_dataset,
                     validation_data=cross_validation_dataset
                     )
 
-model.save('/Users/veersingh/Desktop/Internship/signature-detection-and-extraction/cnn/basic_cnn_model_cpu.h5')
+model.save('/Users/veersingh/Desktop/Internship/signature-detection-and-extraction/cnn_class_label_predictor/basic_cnn_model_cpu.h5')
 
 print("--- %s seconds ---" % (time.time() - start_time))
