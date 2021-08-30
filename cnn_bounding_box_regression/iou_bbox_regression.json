@@ -1,0 +1,3257 @@
+{
+    "fny38c00-page05_5.tif": {
+        "ground_truth": [
+            158,
+            1260,
+            514,
+            1360
+        ],
+        "calculated": [
+            154,
+            1431,
+            553,
+            1665
+        ],
+        "intersection": [
+            158,
+            1431,
+            514,
+            1360
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "dgw64a00.tif": {
+        "ground_truth": [
+            1018,
+            1586,
+            1358,
+            1645
+        ],
+        "calculated": [
+            784,
+            1359,
+            1105,
+            1512
+        ],
+        "intersection": [
+            1018,
+            1586,
+            1105,
+            1512
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "ciy01a00-page02_2.tif": {
+        "ground_truth": [
+            636,
+            756,
+            849,
+            811
+        ],
+        "calculated": [
+            539,
+            885,
+            742,
+            943
+        ],
+        "intersection": [
+            636,
+            885,
+            742,
+            811
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "djy33f00-page02_2.tif": {
+        "ground_truth": [
+            1264,
+            1041,
+            1783,
+            1227
+        ],
+        "calculated": [
+            1195,
+            1787,
+            1624,
+            1940
+        ],
+        "intersection": [
+            1264,
+            1787,
+            1624,
+            1227
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "cvg13f00.tif": {
+        "ground_truth": [
+            1443,
+            2630,
+            2227,
+            2924
+        ],
+        "calculated": [
+            1589,
+            2538,
+            2338,
+            2834
+        ],
+        "intersection": [
+            1589,
+            2630,
+            2227,
+            2834
+        ],
+        "iou_in_percentage": 40.41
+    },
+    "cjb54c00.tif": {
+        "ground_truth": [
+            820,
+            1713,
+            1241,
+            1799
+        ],
+        "calculated": [
+            809,
+            1633,
+            1045,
+            1811
+        ],
+        "intersection": [
+            820,
+            1713,
+            1045,
+            1799
+        ],
+        "iou_in_percentage": 32.87
+    },
+    "eey54f00_1.tif": {
+        "ground_truth": [
+            706,
+            949,
+            858,
+            1019
+        ],
+        "calculated": [
+            606,
+            902,
+            715,
+            1092
+        ],
+        "intersection": [
+            706,
+            949,
+            715,
+            1019
+        ],
+        "iou_in_percentage": 2.05
+    },
+    "eig45f00.tif": {
+        "ground_truth": [
+            645,
+            827,
+            908,
+            971
+        ],
+        "calculated": [
+            664,
+            800,
+            929,
+            959
+        ],
+        "intersection": [
+            664,
+            827,
+            908,
+            959
+        ],
+        "iou_in_percentage": 67.38
+    },
+    "dlk65e00.tif": {
+        "ground_truth": [
+            1152,
+            1927,
+            1807,
+            2099
+        ],
+        "calculated": [
+            1220,
+            1975,
+            1853,
+            2025
+        ],
+        "intersection": [
+            1220,
+            1975,
+            1807,
+            2025
+        ],
+        "iou_in_percentage": 25.53
+    },
+    "cnk41e00-page02_2.tif": {
+        "ground_truth": [
+            372,
+            1203,
+            1159,
+            1431
+        ],
+        "calculated": [
+            647,
+            1298,
+            1190,
+            1379
+        ],
+        "intersection": [
+            647,
+            1298,
+            1159,
+            1379
+        ],
+        "iou_in_percentage": 22.79
+    },
+    "gdh93f00.tif": {
+        "ground_truth": [
+            655,
+            1082,
+            901,
+            1156
+        ],
+        "calculated": [
+            681,
+            1096,
+            932,
+            1204
+        ],
+        "intersection": [
+            681,
+            1096,
+            901,
+            1156
+        ],
+        "iou_in_percentage": 41.11
+    },
+    "gfz10e00.tif": {
+        "ground_truth": [
+            220,
+            1861,
+            913,
+            2016
+        ],
+        "calculated": [
+            553,
+            1646,
+            1103,
+            1776
+        ],
+        "intersection": [
+            553,
+            1861,
+            913,
+            1776
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "eck05f00_1.tif": {
+        "ground_truth": [
+            605,
+            744,
+            982,
+            834
+        ],
+        "calculated": [
+            692,
+            762,
+            986,
+            892
+        ],
+        "intersection": [
+            692,
+            762,
+            982,
+            834
+        ],
+        "iou_in_percentage": 40.73
+    },
+    "gpq38e00-page02_1.tif": {
+        "ground_truth": [
+            1374,
+            2265,
+            1673,
+            2517
+        ],
+        "calculated": [
+            792,
+            2258,
+            1348,
+            2476
+        ],
+        "intersection": [
+            1374,
+            2265,
+            1348,
+            2476
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "dmy31e00-page02_2.tif": {
+        "ground_truth": [
+            312,
+            1650,
+            1053,
+            1861
+        ],
+        "calculated": [
+            460,
+            1444,
+            1258,
+            1634
+        ],
+        "intersection": [
+            460,
+            1650,
+            1053,
+            1634
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "enk41e00-page2_2.tif": {
+        "ground_truth": [
+            442,
+            754,
+            1296,
+            958
+        ],
+        "calculated": [
+            1014,
+            816,
+            1468,
+            996
+        ],
+        "intersection": [
+            1014,
+            816,
+            1296,
+            958
+        ],
+        "iou_in_percentage": 18.55
+    },
+    "dea05a00.tif": {
+        "ground_truth": [
+            838,
+            1496,
+            1177,
+            1584
+        ],
+        "calculated": [
+            832,
+            1589,
+            1305,
+            1771
+        ],
+        "intersection": [
+            838,
+            1589,
+            1177,
+            1584
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "ehz25e00.tif": {
+        "ground_truth": [
+            434,
+            2389,
+            1200,
+            2631
+        ],
+        "calculated": [
+            422,
+            2338,
+            1243,
+            2615
+        ],
+        "intersection": [
+            434,
+            2389,
+            1200,
+            2615
+        ],
+        "iou_in_percentage": 72.23
+    },
+    "dwr29e00_2.tif": {
+        "ground_truth": [
+            1533,
+            1479,
+            2499,
+            2058
+        ],
+        "calculated": [
+            1325,
+            1718,
+            2073,
+            2059
+        ],
+        "intersection": [
+            1533,
+            1718,
+            2073,
+            2058
+        ],
+        "iou_in_percentage": 29.11
+    },
+    "drd89c00-page02_2.tif": {
+        "ground_truth": [
+            212,
+            1785,
+            476,
+            1896
+        ],
+        "calculated": [
+            263,
+            1829,
+            600,
+            1890
+        ],
+        "intersection": [
+            263,
+            1829,
+            476,
+            1890
+        ],
+        "iou_in_percentage": 35.24
+    },
+    "dqn43c00.tif": {
+        "ground_truth": [
+            269,
+            1486,
+            565,
+            1567
+        ],
+        "calculated": [
+            294,
+            1483,
+            644,
+            1588
+        ],
+        "intersection": [
+            294,
+            1486,
+            565,
+            1567
+        ],
+        "iou_in_percentage": 56.61
+    },
+    "dgi64c00.tif": {
+        "ground_truth": [
+            933,
+            1139,
+            1329,
+            1248
+        ],
+        "calculated": [
+            856,
+            1418,
+            1109,
+            1582
+        ],
+        "intersection": [
+            933,
+            1418,
+            1109,
+            1248
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "crr09c00_1.tif": {
+        "ground_truth": [
+            795,
+            1645,
+            1069,
+            1728
+        ],
+        "calculated": [
+            735,
+            1658,
+            1141,
+            1748
+        ],
+        "intersection": [
+            795,
+            1658,
+            1069,
+            1728
+        ],
+        "iou_in_percentage": 47.83
+    },
+    "eta15e00.tif": {
+        "ground_truth": [
+            1188,
+            2036,
+            2009,
+            2172
+        ],
+        "calculated": [
+            1268,
+            1839,
+            2055,
+            2123
+        ],
+        "intersection": [
+            1268,
+            2036,
+            2009,
+            2123
+        ],
+        "iou_in_percentage": 23.82
+    },
+    "giy01a00-page02_2.tif": {
+        "ground_truth": [
+            621,
+            868,
+            942,
+            988
+        ],
+        "calculated": [
+            623,
+            1086,
+            823,
+            1108
+        ],
+        "intersection": [
+            623,
+            1086,
+            823,
+            988
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "gcv85f00.tif": {
+        "ground_truth": [
+            601,
+            1156,
+            897,
+            1254
+        ],
+        "calculated": [
+            598,
+            977,
+            972,
+            1066
+        ],
+        "intersection": [
+            601,
+            1156,
+            897,
+            1066
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "cmw13f00.tif": {
+        "ground_truth": [
+            1364,
+            1917,
+            2157,
+            2089
+        ],
+        "calculated": [
+            1205,
+            1921,
+            2030,
+            2089
+        ],
+        "intersection": [
+            1364,
+            1921,
+            2030,
+            2089
+        ],
+        "iou_in_percentage": 68.6
+    },
+    "cji44a00.tif": {
+        "ground_truth": [
+            516,
+            1327,
+            831,
+            1468
+        ],
+        "calculated": [
+            721,
+            1360,
+            1037,
+            1479
+        ],
+        "intersection": [
+            721,
+            1360,
+            831,
+            1468
+        ],
+        "iou_in_percentage": 16.94
+    },
+    "diy01a00-page02_2.tif": {
+        "ground_truth": [
+            645,
+            874,
+            924,
+            990
+        ],
+        "calculated": [
+            645,
+            1143,
+            845,
+            1228
+        ],
+        "intersection": [
+            645,
+            1143,
+            845,
+            990
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "cjy33f00-page02_2.tif": {
+        "ground_truth": [
+            403,
+            1413,
+            1013,
+            1543
+        ],
+        "calculated": [
+            816,
+            2084,
+            1337,
+            2261
+        ],
+        "intersection": [
+            816,
+            2084,
+            1013,
+            1543
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "dck05f00_1.tif": {
+        "ground_truth": [
+            639,
+            688,
+            1017,
+            781
+        ],
+        "calculated": [
+            651,
+            676,
+            983,
+            776
+        ],
+        "intersection": [
+            651,
+            688,
+            983,
+            776
+        ],
+        "iou_in_percentage": 74.65
+    },
+    "ebp68d00-page02_2.tif": {
+        "ground_truth": [
+            1240,
+            1708,
+            1727,
+            1862
+        ],
+        "calculated": [
+            1104,
+            1437,
+            1937,
+            1885
+        ],
+        "intersection": [
+            1240,
+            1708,
+            1727,
+            1862
+        ],
+        "iou_in_percentage": 20.1
+    },
+    "ecn9aa00.tif": {
+        "ground_truth": [
+            1558,
+            3002,
+            2067,
+            3078
+        ],
+        "calculated": [
+            1513,
+            2966,
+            2110,
+            3204
+        ],
+        "intersection": [
+            1558,
+            3002,
+            2067,
+            3078
+        ],
+        "iou_in_percentage": 27.23
+    },
+    "fft10f00.tif": {
+        "ground_truth": [
+            600,
+            999,
+            917,
+            1077
+        ],
+        "calculated": [
+            620,
+            983,
+            875,
+            1040
+        ],
+        "intersection": [
+            620,
+            999,
+            875,
+            1040
+        ],
+        "iou_in_percentage": 36.29
+    },
+    "enm00a00.tif": {
+        "ground_truth": [
+            1227,
+            2607,
+            2175,
+            2937
+        ],
+        "calculated": [
+            1209,
+            2520,
+            2150,
+            2924
+        ],
+        "intersection": [
+            1227,
+            2607,
+            2150,
+            2924
+        ],
+        "iou_in_percentage": 73.07
+    },
+    "dkd01a00.tif": {
+        "ground_truth": [
+            542,
+            842,
+            802,
+            910
+        ],
+        "calculated": [
+            580,
+            799,
+            853,
+            895
+        ],
+        "intersection": [
+            580,
+            842,
+            802,
+            895
+        ],
+        "iou_in_percentage": 36.63
+    },
+    "cgx54f00_1.tif": {
+        "ground_truth": [
+            818,
+            858,
+            953,
+            924
+        ],
+        "calculated": [
+            731,
+            913,
+            885,
+            981
+        ],
+        "intersection": [
+            818,
+            913,
+            885,
+            924
+        ],
+        "iou_in_percentage": 3.95
+    },
+    "eld41a00.tif": {
+        "ground_truth": [
+            657,
+            803,
+            954,
+            884
+        ],
+        "calculated": [
+            671,
+            961,
+            870,
+            951
+        ],
+        "intersection": [
+            671,
+            961,
+            870,
+            884
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "djz54f00.tif": {
+        "ground_truth": [
+            671,
+            1033,
+            929,
+            1136
+        ],
+        "calculated": [
+            671,
+            990,
+            934,
+            1109
+        ],
+        "intersection": [
+            671,
+            1033,
+            929,
+            1109
+        ],
+        "iou_in_percentage": 51.25
+    },
+    "gzr94e00-page01_1.tif": {
+        "ground_truth": [
+            1010,
+            2090,
+            1293,
+            2323
+        ],
+        "calculated": [
+            1088,
+            1769,
+            1380,
+            1845
+        ],
+        "intersection": [
+            1088,
+            2090,
+            1293,
+            1845
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "eiv46d00.tif": {
+        "ground_truth": [
+            242,
+            1171,
+            787,
+            1298
+        ],
+        "calculated": [
+            307,
+            1213,
+            786,
+            1257
+        ],
+        "intersection": [
+            307,
+            1213,
+            786,
+            1257
+        ],
+        "iou_in_percentage": 30.45
+    },
+    "dxj24f00.tif": {
+        "ground_truth": [
+            562,
+            810,
+            890,
+            890
+        ],
+        "calculated": [
+            514,
+            1208,
+            728,
+            1295
+        ],
+        "intersection": [
+            562,
+            1208,
+            728,
+            890
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "ezr04d00.tif": {
+        "ground_truth": [
+            1199,
+            2422,
+            1968,
+            2564
+        ],
+        "calculated": [
+            1349,
+            2400,
+            2067,
+            2610
+        ],
+        "intersection": [
+            1349,
+            2422,
+            1968,
+            2564
+        ],
+        "iou_in_percentage": 51.08
+    },
+    "eex05f00_1.tif": {
+        "ground_truth": [
+            505,
+            714,
+            834,
+            799
+        ],
+        "calculated": [
+            546,
+            702,
+            810,
+            800
+        ],
+        "intersection": [
+            546,
+            714,
+            810,
+            799
+        ],
+        "iou_in_percentage": 71.47
+    },
+    "fam00a00.tif": {
+        "ground_truth": [
+            1159,
+            2626,
+            2085,
+            2834
+        ],
+        "calculated": [
+            908,
+            2582,
+            1942,
+            2818
+        ],
+        "intersection": [
+            1159,
+            2626,
+            1942,
+            2818
+        ],
+        "iou_in_percentage": 52.51
+    },
+    "fja22c00.tif": {
+        "ground_truth": [
+            231,
+            1949,
+            643,
+            2068
+        ],
+        "calculated": [
+            300,
+            1825,
+            735,
+            1934
+        ],
+        "intersection": [
+            300,
+            1949,
+            643,
+            1934
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "drm00d00.tif": {
+        "ground_truth": [
+            799,
+            1416,
+            1365,
+            1621
+        ],
+        "calculated": [
+            876,
+            1461,
+            1339,
+            1644
+        ],
+        "intersection": [
+            876,
+            1461,
+            1339,
+            1621
+        ],
+        "iou_in_percentage": 58.48
+    },
+    "cio55e00-page02-variant_2.tif": {
+        "ground_truth": [
+            809,
+            1086,
+            1664,
+            1320
+        ],
+        "calculated": [
+            960,
+            1239,
+            1267,
+            1404
+        ],
+        "intersection": [
+            960,
+            1239,
+            1267,
+            1320
+        ],
+        "iou_in_percentage": 11.01
+    },
+    "dfm53d00.tif": {
+        "ground_truth": [
+            1377,
+            2588,
+            1936,
+            2699
+        ],
+        "calculated": [
+            1510,
+            2306,
+            2149,
+            2690
+        ],
+        "intersection": [
+            1510,
+            2588,
+            1936,
+            2690
+        ],
+        "iou_in_percentage": 16.46
+    },
+    "duz52d00-page02-var_3.tif": {
+        "ground_truth": [
+            918,
+            455,
+            1042,
+            622
+        ],
+        "calculated": [
+            899,
+            534,
+            1259,
+            701
+        ],
+        "intersection": [
+            918,
+            534,
+            1042,
+            622
+        ],
+        "iou_in_percentage": 15.61
+    },
+    "gcf65f00.tif": {
+        "ground_truth": [
+            660,
+            760,
+            777,
+            827
+        ],
+        "calculated": [
+            631,
+            782,
+            764,
+            825
+        ],
+        "intersection": [
+            660,
+            782,
+            764,
+            825
+        ],
+        "iou_in_percentage": 49.22
+    },
+    "gpx9aa00-first.tif": {
+        "ground_truth": [
+            1156,
+            1916,
+            2144,
+            2104
+        ],
+        "calculated": [
+            1200,
+            1895,
+            2074,
+            2082
+        ],
+        "intersection": [
+            1200,
+            1916,
+            2074,
+            2082
+        ],
+        "iou_in_percentage": 71.09
+    },
+    "fks41a00.tif": {
+        "ground_truth": [
+            618,
+            1066,
+            919,
+            1140
+        ],
+        "calculated": [
+            578,
+            996,
+            939,
+            1109
+        ],
+        "intersection": [
+            618,
+            1066,
+            919,
+            1109
+        ],
+        "iou_in_percentage": 25.82
+    },
+    "cmw44e00.tif": {
+        "ground_truth": [
+            1556,
+            2298,
+            1953,
+            2587
+        ],
+        "calculated": [
+            1483,
+            2132,
+            2012,
+            2149
+        ],
+        "intersection": [
+            1556,
+            2298,
+            1953,
+            2149
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "gsr09c00.tif": {
+        "ground_truth": [
+            786,
+            1583,
+            1141,
+            1669
+        ],
+        "calculated": [
+            777,
+            1580,
+            1193,
+            1741
+        ],
+        "intersection": [
+            786,
+            1583,
+            1141,
+            1669
+        ],
+        "iou_in_percentage": 45.58
+    },
+    "daf01f00-first.tif": {
+        "ground_truth": [
+            775,
+            955,
+            976,
+            1042
+        ],
+        "calculated": [
+            578,
+            996,
+            736,
+            1022
+        ],
+        "intersection": [
+            775,
+            996,
+            736,
+            1022
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "egg15f00-page2-full_2.tif": {
+        "ground_truth": [
+            640,
+            508,
+            912,
+            590
+        ],
+        "calculated": [
+            569,
+            529,
+            957,
+            631
+        ],
+        "intersection": [
+            640,
+            529,
+            912,
+            590
+        ],
+        "iou_in_percentage": 36.64
+    },
+    "ecv85f00.tif": {
+        "ground_truth": [
+            947,
+            766,
+            1099,
+            851
+        ],
+        "calculated": [
+            622,
+            805,
+            937,
+            941
+        ],
+        "intersection": [
+            947,
+            805,
+            937,
+            851
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "fzf54f00_1.tif": {
+        "ground_truth": [
+            610,
+            847,
+            879,
+            923
+        ],
+        "calculated": [
+            607,
+            875,
+            965,
+            905
+        ],
+        "intersection": [
+            610,
+            875,
+            879,
+            905
+        ],
+        "iou_in_percentage": 34.91
+    },
+    "ewx61c00.tif": {
+        "ground_truth": [
+            250,
+            1376,
+            600,
+            1494
+        ],
+        "calculated": [
+            285,
+            1242,
+            585,
+            1430
+        ],
+        "intersection": [
+            285,
+            1376,
+            585,
+            1430
+        ],
+        "iou_in_percentage": 19.88
+    },
+    "don15f00_1.tif": {
+        "ground_truth": [
+            568,
+            695,
+            742,
+            755
+        ],
+        "calculated": [
+            580,
+            752,
+            909,
+            834
+        ],
+        "intersection": [
+            580,
+            752,
+            742,
+            755
+        ],
+        "iou_in_percentage": 1.32
+    },
+    "exl43d00-page02_2.tif": {
+        "ground_truth": [
+            1573,
+            1462,
+            2311,
+            1592
+        ],
+        "calculated": [
+            1570,
+            1353,
+            2239,
+            1481
+        ],
+        "intersection": [
+            1573,
+            1462,
+            2239,
+            1481
+        ],
+        "iou_in_percentage": 7.49
+    },
+    "fwe69c00.tif": {
+        "ground_truth": [
+            894,
+            1246,
+            1306,
+            1418
+        ],
+        "calculated": [
+            873,
+            1210,
+            1429,
+            1328
+        ],
+        "intersection": [
+            894,
+            1246,
+            1306,
+            1328
+        ],
+        "iou_in_percentage": 32.9
+    },
+    "eat60e00.tif": {
+        "ground_truth": [
+            1561,
+            1572,
+            2053,
+            1722
+        ],
+        "calculated": [
+            1559,
+            1563,
+            2078,
+            1673
+        ],
+        "intersection": [
+            1561,
+            1572,
+            2053,
+            1673
+        ],
+        "iou_in_percentage": 61.2
+    },
+    "gal01c00.tif": {
+        "ground_truth": [
+            873,
+            989,
+            1362,
+            1078
+        ],
+        "calculated": [
+            779,
+            1032,
+            1232,
+            1112
+        ],
+        "intersection": [
+            873,
+            1032,
+            1232,
+            1078
+        ],
+        "iou_in_percentage": 26.11
+    },
+    "eoc33a00-page02_2.tif": {
+        "ground_truth": [
+            1465,
+            1373,
+            2146,
+            1506
+        ],
+        "calculated": [
+            1378,
+            1405,
+            1877,
+            1604
+        ],
+        "intersection": [
+            1465,
+            1405,
+            1877,
+            1506
+        ],
+        "iou_in_percentage": 28.07
+    },
+    "ghz25e00.tif": {
+        "ground_truth": [
+            430,
+            2383,
+            1253,
+            2676
+        ],
+        "calculated": [
+            447,
+            2374,
+            1224,
+            2642
+        ],
+        "intersection": [
+            447,
+            2383,
+            1224,
+            2642
+        ],
+        "iou_in_percentage": 81.1
+    },
+    "gmk15f00.tif": {
+        "ground_truth": [
+            734,
+            1091,
+            960,
+            1180
+        ],
+        "calculated": [
+            719,
+            1182,
+            987,
+            1278
+        ],
+        "intersection": [
+            734,
+            1182,
+            960,
+            1180
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "dny38c00_5.tif": {
+        "ground_truth": [
+            277,
+            1473,
+            686,
+            1556
+        ],
+        "calculated": [
+            199,
+            1416,
+            609,
+            1497
+        ],
+        "intersection": [
+            277,
+            1473,
+            609,
+            1497
+        ],
+        "iou_in_percentage": 13.46
+    },
+    "fzh11c00-var.tif": {
+        "ground_truth": [
+            1576,
+            1447,
+            1976,
+            1565
+        ],
+        "calculated": [
+            1329,
+            1325,
+            1833,
+            1585
+        ],
+        "intersection": [
+            1576,
+            1447,
+            1833,
+            1565
+        ],
+        "iou_in_percentage": 20.5
+    },
+    "fyg65f00.tif": {
+        "ground_truth": [
+            518,
+            1047,
+            888,
+            1128
+        ],
+        "calculated": [
+            546,
+            1044,
+            888,
+            1156
+        ],
+        "intersection": [
+            546,
+            1047,
+            888,
+            1128
+        ],
+        "iou_in_percentage": 68.28
+    },
+    "eqb46d00.tif": {
+        "ground_truth": [
+            834,
+            1483,
+            1370,
+            1604
+        ],
+        "calculated": [
+            840,
+            1427,
+            1329,
+            1677
+        ],
+        "intersection": [
+            840,
+            1483,
+            1329,
+            1604
+        ],
+        "iou_in_percentage": 46.25
+    },
+    "fpg81e00.tif": {
+        "ground_truth": [
+            1178,
+            2200,
+            2001,
+            2437
+        ],
+        "calculated": [
+            1170,
+            2183,
+            1929,
+            2472
+        ],
+        "intersection": [
+            1178,
+            2200,
+            1929,
+            2437
+        ],
+        "iou_in_percentage": 75.29
+    },
+    "eao90f00.tif": {
+        "ground_truth": [
+            520,
+            879,
+            836,
+            971
+        ],
+        "calculated": [
+            456,
+            901,
+            695,
+            1069
+        ],
+        "intersection": [
+            520,
+            901,
+            695,
+            971
+        ],
+        "iou_in_percentage": 21.5
+    },
+    "hbk41e00.tif": {
+        "ground_truth": [
+            354,
+            1559,
+            1212,
+            1793
+        ],
+        "calculated": [
+            437,
+            1534,
+            1221,
+            1701
+        ],
+        "intersection": [
+            437,
+            1559,
+            1212,
+            1701
+        ],
+        "iou_in_percentage": 49.65
+    },
+    "don15f00_2.tif": {
+        "ground_truth": [
+            568,
+            697,
+            742,
+            755
+        ],
+        "calculated": [
+            581,
+            757,
+            909,
+            849
+        ],
+        "intersection": [
+            581,
+            757,
+            742,
+            755
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "cpz95d00-variant_2.tif": {
+        "ground_truth": [
+            847,
+            1663,
+            1564,
+            1882
+        ],
+        "calculated": [
+            913,
+            1640,
+            1445,
+            1830
+        ],
+        "intersection": [
+            913,
+            1663,
+            1445,
+            1830
+        ],
+        "iou_in_percentage": 52.49
+    },
+    "foc33a00-page02_2.tif": {
+        "ground_truth": [
+            1465,
+            1358,
+            2172,
+            1499
+        ],
+        "calculated": [
+            1340,
+            1410,
+            1886,
+            1641
+        ],
+        "intersection": [
+            1465,
+            1410,
+            1886,
+            1499
+        ],
+        "iou_in_percentage": 19.89
+    },
+    "gnx21c00-page02_2.tif": {
+        "ground_truth": [
+            239,
+            1559,
+            721,
+            1675
+        ],
+        "calculated": [
+            259,
+            1462,
+            566,
+            1558
+        ],
+        "intersection": [
+            259,
+            1559,
+            566,
+            1558
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "enj41f00.tif": {
+        "ground_truth": [
+            649,
+            836,
+            938,
+            897
+        ],
+        "calculated": [
+            652,
+            801,
+            915,
+            881
+        ],
+        "intersection": [
+            652,
+            836,
+            915,
+            881
+        ],
+        "iou_in_percentage": 44.1
+    },
+    "ggp21c00-var.tif": {
+        "ground_truth": [
+            1073,
+            1924,
+            1787,
+            2176
+        ],
+        "calculated": [
+            1214,
+            2092,
+            1639,
+            2303
+        ],
+        "intersection": [
+            1214,
+            2092,
+            1639,
+            2176
+        ],
+        "iou_in_percentage": 15.26
+    },
+    "djw26d00.tif": {
+        "ground_truth": [
+            346,
+            1681,
+            625,
+            1754
+        ],
+        "calculated": [
+            381,
+            1339,
+            765,
+            1516
+        ],
+        "intersection": [
+            381,
+            1681,
+            625,
+            1516
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "cry54f00_1.tif": {
+        "ground_truth": [
+            624,
+            788,
+            793,
+            883
+        ],
+        "calculated": [
+            649,
+            827,
+            841,
+            877
+        ],
+        "intersection": [
+            649,
+            827,
+            793,
+            877
+        ],
+        "iou_in_percentage": 39.01
+    },
+    "ege23f00_1.tif": {
+        "ground_truth": [
+            259,
+            2616,
+            841,
+            2845
+        ],
+        "calculated": [
+            538,
+            2277,
+            1033,
+            2498
+        ],
+        "intersection": [
+            538,
+            2616,
+            841,
+            2498
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "fcb93e00.tif": {
+        "ground_truth": [
+            1488,
+            2678,
+            2051,
+            2803
+        ],
+        "calculated": [
+            1346,
+            2496,
+            2018,
+            2593
+        ],
+        "intersection": [
+            1488,
+            2678,
+            2018,
+            2593
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "cxi59c00_2.tif": {
+        "ground_truth": [
+            286,
+            1645,
+            623,
+            1801
+        ],
+        "calculated": [
+            203,
+            1524,
+            659,
+            1572
+        ],
+        "intersection": [
+            286,
+            1645,
+            623,
+            1572
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "fsc51a00.tif": {
+        "ground_truth": [
+            669,
+            855,
+            940,
+            927
+        ],
+        "calculated": [
+            692,
+            850,
+            960,
+            909
+        ],
+        "intersection": [
+            692,
+            855,
+            940,
+            909
+        ],
+        "iou_in_percentage": 61.06
+    },
+    "gjl70a00-page2_2.tif": {
+        "ground_truth": [
+            608,
+            697,
+            983,
+            772
+        ],
+        "calculated": [
+            592,
+            924,
+            910,
+            971
+        ],
+        "intersection": [
+            608,
+            924,
+            910,
+            772
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "fsh23c00-page04_4.tif": {
+        "ground_truth": [
+            829,
+            1583,
+            1233,
+            1677
+        ],
+        "calculated": [
+            884,
+            1510,
+            1160,
+            1710
+        ],
+        "intersection": [
+            884,
+            1583,
+            1160,
+            1677
+        ],
+        "iou_in_percentage": 38.59
+    },
+    "dlu7aa00_2.tif": {
+        "ground_truth": [
+            1171,
+            1395,
+            1997,
+            1606
+        ],
+        "calculated": [
+            703,
+            1678,
+            1020,
+            1748
+        ],
+        "intersection": [
+            1171,
+            1678,
+            1020,
+            1606
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "gxp01f00_1.tif": {
+        "ground_truth": [
+            551,
+            875,
+            708,
+            921
+        ],
+        "calculated": [
+            531,
+            851,
+            779,
+            945
+        ],
+        "intersection": [
+            551,
+            875,
+            708,
+            921
+        ],
+        "iou_in_percentage": 30.98
+    },
+    "fbv15e00.tif": {
+        "ground_truth": [
+            1228,
+            2062,
+            2135,
+            2208
+        ],
+        "calculated": [
+            1290,
+            2048,
+            2181,
+            2235
+        ],
+        "intersection": [
+            1290,
+            2062,
+            2135,
+            2208
+        ],
+        "iou_in_percentage": 70.23
+    },
+    "cxi59c00_1.tif": {
+        "ground_truth": [
+            286,
+            1645,
+            617,
+            1809
+        ],
+        "calculated": [
+            180,
+            1535,
+            636,
+            1631
+        ],
+        "intersection": [
+            286,
+            1645,
+            617,
+            1631
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "fpi68d00.tif": {
+        "ground_truth": [
+            1185,
+            1754,
+            1956,
+            1906
+        ],
+        "calculated": [
+            1120,
+            1597,
+            1815,
+            1894
+        ],
+        "intersection": [
+            1185,
+            1754,
+            1815,
+            1894
+        ],
+        "iou_in_percentage": 37.47
+    },
+    "dkn80f00.tif": {
+        "ground_truth": [
+            595,
+            824,
+            936,
+            912
+        ],
+        "calculated": [
+            618,
+            889,
+            876,
+            956
+        ],
+        "intersection": [
+            618,
+            889,
+            876,
+            912
+        ],
+        "iou_in_percentage": 14.35
+    },
+    "dtf1aa00.tif": {
+        "ground_truth": [
+            1146,
+            2180,
+            1475,
+            2288
+        ],
+        "calculated": [
+            1083,
+            2055,
+            1549,
+            2100
+        ],
+        "intersection": [
+            1146,
+            2180,
+            1475,
+            2100
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "csj50c00.tif": {
+        "ground_truth": [
+            1126,
+            1548,
+            1512,
+            1660
+        ],
+        "calculated": [
+            1073,
+            1523,
+            1442,
+            1635
+        ],
+        "intersection": [
+            1126,
+            1548,
+            1442,
+            1635
+        ],
+        "iou_in_percentage": 48.17
+    },
+    "dsj50c00-page04_4.tif": {
+        "ground_truth": [
+            843,
+            1521,
+            1252,
+            1624
+        ],
+        "calculated": [
+            861,
+            1513,
+            1239,
+            1661
+        ],
+        "intersection": [
+            861,
+            1521,
+            1239,
+            1624
+        ],
+        "iou_in_percentage": 65.84
+    },
+    "gko55e00-page02_2.tif": {
+        "ground_truth": [
+            1046,
+            2346,
+            1846,
+            2522
+        ],
+        "calculated": [
+            1408,
+            2173,
+            1956,
+            2551
+        ],
+        "intersection": [
+            1408,
+            2346,
+            1846,
+            2522
+        ],
+        "iou_in_percentage": 28.46
+    },
+    "cle30a00.tif": {
+        "ground_truth": [
+            117,
+            2637,
+            1212,
+            2794
+        ],
+        "calculated": [
+            256,
+            2112,
+            835,
+            2476
+        ],
+        "intersection": [
+            256,
+            2637,
+            835,
+            2476
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "grm00d00.tif": {
+        "ground_truth": [
+            899,
+            1327,
+            1381,
+            1500
+        ],
+        "calculated": [
+            882,
+            1465,
+            1324,
+            1650
+        ],
+        "intersection": [
+            899,
+            1465,
+            1324,
+            1500
+        ],
+        "iou_in_percentage": 9.9
+    },
+    "getdoc.tif": {
+        "ground_truth": [
+            1384,
+            1888,
+            1880,
+            1993
+        ],
+        "calculated": [
+            1368,
+            1868,
+            1935,
+            2044
+        ],
+        "intersection": [
+            1384,
+            1888,
+            1880,
+            1993
+        ],
+        "iou_in_percentage": 52.19
+    },
+    "dkb01a00-page03_3.tif": {
+        "ground_truth": [
+            645,
+            990,
+            811,
+            1039
+        ],
+        "calculated": [
+            543,
+            997,
+            852,
+            1043
+        ],
+        "intersection": [
+            645,
+            997,
+            811,
+            1039
+        ],
+        "iou_in_percentage": 45.34
+    },
+    "djh5aa00.tif": {
+        "ground_truth": [
+            1809,
+            1738,
+            2162,
+            1858
+        ],
+        "calculated": [
+            1540,
+            1783,
+            2039,
+            1926
+        ],
+        "intersection": [
+            1809,
+            1783,
+            2039,
+            1858
+        ],
+        "iou_in_percentage": 17.88
+    },
+    "ewe36d00.tif": {
+        "ground_truth": [
+            231,
+            1263,
+            700,
+            1424
+        ],
+        "calculated": [
+            245,
+            1128,
+            613,
+            1302
+        ],
+        "intersection": [
+            245,
+            1263,
+            613,
+            1302
+        ],
+        "iou_in_percentage": 11.46
+    },
+    "dme30a00.tif": {
+        "ground_truth": [
+            29,
+            2303,
+            929,
+            2517
+        ],
+        "calculated": [
+            209,
+            2273,
+            925,
+            2478
+        ],
+        "intersection": [
+            209,
+            2303,
+            925,
+            2478
+        ],
+        "iou_in_percentage": 58.53
+    },
+    "fez35f00.tif": {
+        "ground_truth": [
+            557,
+            1132,
+            797,
+            1169
+        ],
+        "calculated": [
+            440,
+            1072,
+            600,
+            1097
+        ],
+        "intersection": [
+            557,
+            1132,
+            600,
+            1097
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "eeo04f00.tif": {
+        "ground_truth": [
+            510,
+            882,
+            692,
+            945
+        ],
+        "calculated": [
+            550,
+            886,
+            673,
+            1017
+        ],
+        "intersection": [
+            550,
+            886,
+            673,
+            945
+        ],
+        "iou_in_percentage": 35.71
+    },
+    "cqt45f00-page02_2.tif": {
+        "ground_truth": [
+            645,
+            618,
+            928,
+            671
+        ],
+        "calculated": [
+            589,
+            627,
+            889,
+            713
+        ],
+        "intersection": [
+            645,
+            627,
+            889,
+            671
+        ],
+        "iou_in_percentage": 35.71
+    },
+    "chg15f00-full_1.tif": {
+        "ground_truth": [
+            596,
+            1080,
+            901,
+            1173
+        ],
+        "calculated": [
+            608,
+            1106,
+            916,
+            1200
+        ],
+        "intersection": [
+            608,
+            1106,
+            901,
+            1173
+        ],
+        "iou_in_percentage": 52.09
+    },
+    "cpi68d00.tif": {
+        "ground_truth": [
+            1426,
+            2239,
+            2158,
+            2391
+        ],
+        "calculated": [
+            1385,
+            2284,
+            1997,
+            2489
+        ],
+        "intersection": [
+            1426,
+            2284,
+            1997,
+            2391
+        ],
+        "iou_in_percentage": 34.79
+    },
+    "evz52d00-page02_2.tif": {
+        "ground_truth": [
+            894,
+            1053,
+            1117,
+            1230
+        ],
+        "calculated": [
+            817,
+            960,
+            1204,
+            1166
+        ],
+        "intersection": [
+            894,
+            1053,
+            1117,
+            1166
+        ],
+        "iou_in_percentage": 26.81
+    },
+    "eys04c00-page04_4.tif": {
+        "ground_truth": [
+            923,
+            1066,
+            1276,
+            1160
+        ],
+        "calculated": [
+            750,
+            1003,
+            1177,
+            1200
+        ],
+        "intersection": [
+            923,
+            1066,
+            1177,
+            1160
+        ],
+        "iou_in_percentage": 25.56
+    },
+    "cqc13f00.tif": {
+        "ground_truth": [
+            1655,
+            2293,
+            2196,
+            2491
+        ],
+        "calculated": [
+            1605,
+            2278,
+            2167,
+            2367
+        ],
+        "intersection": [
+            1655,
+            2293,
+            2167,
+            2367
+        ],
+        "iou_in_percentage": 31.77
+    },
+    "fki32e00.tif": {
+        "ground_truth": [
+            1410,
+            2616,
+            2258,
+            2983
+        ],
+        "calculated": [
+            1359,
+            2475,
+            1939,
+            2637
+        ],
+        "intersection": [
+            1410,
+            2616,
+            1939,
+            2637
+        ],
+        "iou_in_percentage": 2.82
+    },
+    "erw85a00.tif": {
+        "ground_truth": [
+            983,
+            1244,
+            1373,
+            1368
+        ],
+        "calculated": [
+            963,
+            1287,
+            1357,
+            1382
+        ],
+        "intersection": [
+            983,
+            1287,
+            1357,
+            1368
+        ],
+        "iou_in_percentage": 54.59
+    },
+    "egl10a00.tif": {
+        "ground_truth": [
+            1398,
+            2106,
+            1975,
+            2215
+        ],
+        "calculated": [
+            1197,
+            2302,
+            1893,
+            2518
+        ],
+        "intersection": [
+            1398,
+            2302,
+            1893,
+            2215
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "dna82e00.tif": {
+        "ground_truth": [
+            1267,
+            2306,
+            2117,
+            2481
+        ],
+        "calculated": [
+            1353,
+            2375,
+            2065,
+            2676
+        ],
+        "intersection": [
+            1353,
+            2375,
+            2065,
+            2481
+        ],
+        "iou_in_percentage": 26.24
+    },
+    "gjk79c00.tif": {
+        "ground_truth": [
+            1004,
+            1422,
+            1513,
+            1535
+        ],
+        "calculated": [
+            1002,
+            1429,
+            1507,
+            1529
+        ],
+        "intersection": [
+            1004,
+            1429,
+            1507,
+            1529
+        ],
+        "iou_in_percentage": 87.15
+    },
+    "cjx9aa00.tif": {
+        "ground_truth": [
+            117,
+            1918,
+            987,
+            2117
+        ],
+        "calculated": [
+            180,
+            1903,
+            960,
+            2098
+        ],
+        "intersection": [
+            180,
+            1918,
+            960,
+            2098
+        ],
+        "iou_in_percentage": 75.96
+    },
+    "esk12d00.tif": {
+        "ground_truth": [
+            507,
+            2339,
+            877,
+            2502
+        ],
+        "calculated": [
+            402,
+            2221,
+            1020,
+            2319
+        ],
+        "intersection": [
+            507,
+            2339,
+            877,
+            2319
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "chs60f00_1.tif": {
+        "ground_truth": [
+            763,
+            1286,
+            971,
+            1325
+        ],
+        "calculated": [
+            428,
+            1323,
+            582,
+            1389
+        ],
+        "intersection": [
+            763,
+            1323,
+            582,
+            1325
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "gsj41f00-page02_2.tif": {
+        "ground_truth": [
+            664,
+            762,
+            1025,
+            829
+        ],
+        "calculated": [
+            588,
+            807,
+            885,
+            853
+        ],
+        "intersection": [
+            664,
+            807,
+            885,
+            829
+        ],
+        "iou_in_percentage": 14.74
+    },
+    "erk44a00_1.tif": {
+        "ground_truth": [
+            910,
+            1796,
+            1570,
+            1952
+        ],
+        "calculated": [
+            890,
+            1708,
+            1473,
+            1923
+        ],
+        "intersection": [
+            910,
+            1796,
+            1473,
+            1923
+        ],
+        "iou_in_percentage": 45.6
+    },
+    "csr09c00.tif": {
+        "ground_truth": [
+            711,
+            1694,
+            1024,
+            1793
+        ],
+        "calculated": [
+            787,
+            1683,
+            1194,
+            1869
+        ],
+        "intersection": [
+            787,
+            1694,
+            1024,
+            1793
+        ],
+        "iou_in_percentage": 28.19
+    },
+    "dpi68d00.tif": {
+        "ground_truth": [
+            1147,
+            2667,
+            1863,
+            2858
+        ],
+        "calculated": [
+            774,
+            2486,
+            1447,
+            2684
+        ],
+        "intersection": [
+            1147,
+            2667,
+            1447,
+            2684
+        ],
+        "iou_in_percentage": 1.93
+    },
+    "gjw13f00.tif": {
+        "ground_truth": [
+            336,
+            2286,
+            936,
+            2441
+        ],
+        "calculated": [
+            420,
+            2301,
+            1043,
+            2452
+        ],
+        "intersection": [
+            420,
+            2301,
+            936,
+            2441
+        ],
+        "iou_in_percentage": 62.91
+    },
+    "ftf1aa00.tif": {
+        "ground_truth": [
+            1003,
+            2079,
+            1355,
+            2176
+        ],
+        "calculated": [
+            1005,
+            1870,
+            1434,
+            2104
+        ],
+        "intersection": [
+            1005,
+            2079,
+            1355,
+            2104
+        ],
+        "iou_in_percentage": 6.96
+    },
+    "chw80e00_1.tif": {
+        "ground_truth": [
+            1591,
+            1658,
+            1968,
+            1824
+        ],
+        "calculated": [
+            1643,
+            1652,
+            2139,
+            1922
+        ],
+        "intersection": [
+            1643,
+            1658,
+            1968,
+            1824
+        ],
+        "iou_in_percentage": 37.85
+    },
+    "djp51a00.tif": {
+        "ground_truth": [
+            856,
+            1329,
+            1309,
+            1456
+        ],
+        "calculated": [
+            706,
+            1360,
+            1265,
+            1552
+        ],
+        "intersection": [
+            856,
+            1360,
+            1265,
+            1456
+        ],
+        "iou_in_percentage": 31.26
+    },
+    "gpg81e00.tif": {
+        "ground_truth": [
+            1143,
+            2634,
+            2041,
+            2875
+        ],
+        "calculated": [
+            1161,
+            2701,
+            2154,
+            3006
+        ],
+        "intersection": [
+            1161,
+            2701,
+            2041,
+            2875
+        ],
+        "iou_in_percentage": 41.82
+    },
+    "edj50e00-first_3.tif": {
+        "ground_truth": [
+            135,
+            1014,
+            538,
+            1149
+        ],
+        "calculated": [
+            889,
+            991,
+            1586,
+            976
+        ],
+        "intersection": [
+            889,
+            1014,
+            538,
+            976
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "gfg5aa00.tif": {
+        "ground_truth": [
+            1648,
+            2016,
+            2039,
+            2128
+        ],
+        "calculated": [
+            1533,
+            1931,
+            2068,
+            2025
+        ],
+        "intersection": [
+            1648,
+            2016,
+            2039,
+            2025
+        ],
+        "iou_in_percentage": 3.89
+    },
+    "eut41e00.tif": {
+        "ground_truth": [
+            1154,
+            2281,
+            1955,
+            2583
+        ],
+        "calculated": [
+            1258,
+            2184,
+            1905,
+            2458
+        ],
+        "intersection": [
+            1258,
+            2281,
+            1905,
+            2458
+        ],
+        "iou_in_percentage": 37.59
+    },
+    "evt93c00.tif": {
+        "ground_truth": [
+            624,
+            1804,
+            1069,
+            2060
+        ],
+        "calculated": [
+            719,
+            1862,
+            1045,
+            1959
+        ],
+        "intersection": [
+            719,
+            1862,
+            1045,
+            1959
+        ],
+        "iou_in_percentage": 27.76
+    },
+    "cxk72e00-page03_3.tif": {
+        "ground_truth": [
+            1599,
+            1707,
+            1960,
+            1808
+        ],
+        "calculated": [
+            922,
+            1793,
+            1438,
+            2045
+        ],
+        "intersection": [
+            1599,
+            1793,
+            1438,
+            1808
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "dic45f00_1.tif": {
+        "ground_truth": [
+            797,
+            1073,
+            1046,
+            1293
+        ],
+        "calculated": [
+            628,
+            1047,
+            843,
+            1081
+        ],
+        "intersection": [
+            797,
+            1073,
+            843,
+            1081
+        ],
+        "iou_in_percentage": 0.6
+    },
+    "eez35f00-page02_2.tif": {
+        "ground_truth": [
+            510,
+            740,
+            775,
+            792
+        ],
+        "calculated": [
+            448,
+            721,
+            714,
+            855
+        ],
+        "intersection": [
+            510,
+            740,
+            714,
+            792
+        ],
+        "iou_in_percentage": 27.33
+    },
+    "fga05a00.tif": {
+        "ground_truth": [
+            843,
+            1639,
+            1142,
+            1717
+        ],
+        "calculated": [
+            850,
+            1670,
+            1183,
+            1736
+        ],
+        "intersection": [
+            850,
+            1670,
+            1142,
+            1717
+        ],
+        "iou_in_percentage": 43.46
+    },
+    "dch31f00.tif": {
+        "ground_truth": [
+            691,
+            869,
+            967,
+            933
+        ],
+        "calculated": [
+            663,
+            865,
+            940,
+            923
+        ],
+        "intersection": [
+            691,
+            869,
+            940,
+            923
+        ],
+        "iou_in_percentage": 66.29
+    },
+    "cgy54f00_1.tif": {
+        "ground_truth": [
+            736,
+            908,
+            906,
+            987
+        ],
+        "calculated": [
+            716,
+            934,
+            949,
+            1009
+        ],
+        "intersection": [
+            736,
+            934,
+            906,
+            987
+        ],
+        "iou_in_percentage": 41.15
+    },
+    "ekv93d00.tif": {
+        "ground_truth": [
+            1452,
+            2708,
+            2269,
+            2951
+        ],
+        "calculated": [
+            1403,
+            2611,
+            2014,
+            2801
+        ],
+        "intersection": [
+            1452,
+            2708,
+            2014,
+            2801
+        ],
+        "iou_in_percentage": 19.92
+    },
+    "ehi41f00.tif": {
+        "ground_truth": [
+            595,
+            1143,
+            830,
+            1217
+        ],
+        "calculated": [
+            553,
+            1120,
+            799,
+            1163
+        ],
+        "intersection": [
+            595,
+            1143,
+            799,
+            1163
+        ],
+        "iou_in_percentage": 17.08
+    },
+    "dvr41a00.tif": {
+        "ground_truth": [
+            590,
+            967,
+            888,
+            1029
+        ],
+        "calculated": [
+            610,
+            1042,
+            847,
+            1042
+        ],
+        "intersection": [
+            610,
+            1042,
+            847,
+            1029
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "fjq59c00.tif": {
+        "ground_truth": [
+            916,
+            1400,
+            1260,
+            1497
+        ],
+        "calculated": [
+            996,
+            1346,
+            1438,
+            1577
+        ],
+        "intersection": [
+            996,
+            1400,
+            1260,
+            1497
+        ],
+        "iou_in_percentage": 23.31
+    },
+    "dhr55d00-page02_2.tif": {
+        "ground_truth": [
+            1576,
+            2023,
+            2004,
+            2207
+        ],
+        "calculated": [
+            1194,
+            1713,
+            1697,
+            2020
+        ],
+        "intersection": [
+            1576,
+            2023,
+            1697,
+            2020
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "efm53d00.tif": {
+        "ground_truth": [
+            1240,
+            2650,
+            1865,
+            2768
+        ],
+        "calculated": [
+            1467,
+            2754,
+            2076,
+            2968
+        ],
+        "intersection": [
+            1467,
+            2754,
+            1865,
+            2768
+        ],
+        "iou_in_percentage": 2.81
+    },
+    "cir10f00.tif": {
+        "ground_truth": [
+            628,
+            990,
+            811,
+            1053
+        ],
+        "calculated": [
+            484,
+            1018,
+            760,
+            1059
+        ],
+        "intersection": [
+            628,
+            1018,
+            760,
+            1053
+        ],
+        "iou_in_percentage": 25.35
+    },
+    "dat60e00_1.tif": {
+        "ground_truth": [
+            1648,
+            1986,
+            2176,
+            2128
+        ],
+        "calculated": [
+            1349,
+            1912,
+            1917,
+            2029
+        ],
+        "intersection": [
+            1648,
+            1986,
+            1917,
+            2029
+        ],
+        "iou_in_percentage": 8.91
+    },
+    "gxv75f00_1.tif": {
+        "ground_truth": [
+            634,
+            450,
+            905,
+            533
+        ],
+        "calculated": [
+            684,
+            565,
+            954,
+            595
+        ],
+        "intersection": [
+            684,
+            565,
+            905,
+            533
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "dvw54f00_1.tif": {
+        "ground_truth": [
+            669,
+            986,
+            901,
+            1084
+        ],
+        "calculated": [
+            630,
+            908,
+            891,
+            1053
+        ],
+        "intersection": [
+            669,
+            986,
+            891,
+            1053
+        ],
+        "iou_in_percentage": 32.54
+    },
+    "dfb44f00-page4_4.tif": {
+        "ground_truth": [
+            605,
+            492,
+            960,
+            569
+        ],
+        "calculated": [
+            556,
+            654,
+            814,
+            804
+        ],
+        "intersection": [
+            605,
+            654,
+            814,
+            569
+        ],
+        "iou_in_percentage": 0.0
+    },
+    "gat5aa00.tif": {
+        "ground_truth": [
+            1613,
+            2043,
+            2233,
+            2175
+        ],
+        "calculated": [
+            1555,
+            2054,
+            2213,
+            2340
+        ],
+        "intersection": [
+            1613,
+            2054,
+            2213,
+            2175
+        ],
+        "iou_in_percentage": 36.77
+    },
+    "fjx9aa00.tif": {
+        "ground_truth": [
+            146,
+            1641,
+            1200,
+            1854
+        ],
+        "calculated": [
+            210,
+            1646,
+            1206,
+            1854
+        ],
+        "intersection": [
+            210,
+            1646,
+            1200,
+            1854
+        ],
+        "iou_in_percentage": 91.22
+    },
+    "eqp14e00-page02_2.tif": {
+        "ground_truth": [
+            1436,
+            1413,
+            2060,
+            1576
+        ],
+        "calculated": [
+            1204,
+            1884,
+            1753,
+            1915
+        ],
+        "intersection": [
+            1436,
+            1884,
+            1753,
+            1576
+        ],
+        "iou_in_percentage": 0.0
+    }
+}
