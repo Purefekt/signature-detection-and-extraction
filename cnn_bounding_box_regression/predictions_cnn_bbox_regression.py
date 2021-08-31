@@ -1,7 +1,7 @@
 from os import environ
+
 environ["KERAS_BACKEND"] = "plaidml.keras.backend"
-import keras
-from cnn_bounding_box_regression import config
+
 from keras.preprocessing.image import img_to_array
 from keras.preprocessing.image import load_img
 from keras.models import load_model
@@ -9,7 +9,6 @@ import numpy as np
 import cv2
 import os
 import json
-
 """
 This script uses the trained model and uses that to predict bbox coords for all images in the given directory.
 In this case this dir is the evaluation dir which contains 155 images which the model has never seen before.
@@ -18,7 +17,7 @@ Later we will use iou percentage to calculate how well this model worked.
 """
 
 # load the trained model
-model = load_model(config.model_path)
+model = load_model('bbox_regression_cnn.h5')
 
 # create a list of paths of all images to be evaluated
 eval_images_filenames_list = list()
@@ -26,7 +25,9 @@ eval_images_dir = '/Users/veersingh/Desktop/bbox_regression_dataset/eval'
 for eval_image_filename in os.listdir(eval_images_dir):
     eval_images_filenames_list.append(eval_image_filename)
 
-print(f'Number of images to be evaluated on --> {len(eval_images_filenames_list)}')
+print(
+    f'Number of images to be evaluated on --> {len(eval_images_filenames_list)}'
+)
 
 # initiate the predicted bbox dict which will be converted to json
 eval_images_predicted_bbox_dict = dict()
@@ -36,7 +37,8 @@ eval_images_predicted_bbox_dict = dict()
 for eval_image_filename in eval_images_filenames_list:
     # load the input image (in Keras format) from disk and preprocess
     # it, scaling the pixel intensities to the range [0, 1]
-    image = load_img(eval_images_dir + '/' + eval_image_filename, target_size=(224, 224))
+    image = load_img(eval_images_dir + '/' + eval_image_filename,
+                     target_size=(224, 224))
     image = img_to_array(image) / 255.0
     image = np.expand_dims(image, axis=0)
 

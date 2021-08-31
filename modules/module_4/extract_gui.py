@@ -49,14 +49,16 @@ def detect_signature():
         mask = extract_signature(im, clf, preprocess=True)
 
         im = cv2.imread(app.current_file)
-        im[np.where(mask==255)] = (0, 0, 255)
+        im[np.where(mask == 255)] = (0, 0, 255)
 
         # Draw bounding box on image
-        points = np.argwhere(mask==255)  # find where the black pixels are
-        points = np.fliplr(points)       # store them in x,y coordinates instead of row,col indices
-        x, y, w, h = cv2.boundingRect(points)  # create a rectangle around those points
-        cv2.rectangle(im,(x,y),(x+w,y+h),(0,255,0),2)
-        print(x,y,x+w, y+h)
+        points = np.argwhere(mask == 255)  # find where the black pixels are
+        points = np.fliplr(
+            points)  # store them in x,y coordinates instead of row,col indices
+        x, y, w, h = cv2.boundingRect(
+            points)  # create a rectangle around those points
+        cv2.rectangle(im, (x, y), (x + w, y + h), (0, 255, 0), 2)
+        print(x, y, x + w, y + h)
 
         im = cv2.cvtColor(im, cv2.COLOR_BGR2RGB)
         app.show(im, app.input_view)
@@ -80,6 +82,7 @@ def open_image():
         app.show(src, app.input_view)
         app.status("Step 2: Detect Signature")
 
+
 class SignatureExtractor:
 
     def __init__(self):
@@ -94,20 +97,24 @@ class SignatureExtractor:
 
         # Add a grid
         mainframe = tk.Frame(self.__root)
-        mainframe.grid(rowspan=12, columnspan=4, sticky=(tk.N, tk.W, tk.E, tk.S))
+        mainframe.grid(rowspan=12,
+                       columnspan=4,
+                       sticky=(tk.N, tk.W, tk.E, tk.S))
         tk.Grid.rowconfigure(mainframe, 0, weight=1)
         tk.Grid.columnconfigure(mainframe, 0, weight=1)
 
         # Create a Tkinter variable
         self.model = joblib.load("models/decision-tree.pkl")
 
-        tk.Button(mainframe, text="Open an Image", command=open_image).grid(row=0, column=0, sticky=tk.E)
-        tk.Button(mainframe, text="Detect Signature", command=detect_signature).grid(row=0, column=1, sticky=tk.E)
+        tk.Button(mainframe, text="Open an Image",
+                  command=open_image).grid(row=0, column=0, sticky=tk.E)
+        tk.Button(mainframe, text="Detect Signature",
+                  command=detect_signature).grid(row=0, column=1, sticky=tk.E)
 
         # Create canvas where source image will be displayed
         self.input_view = tk.Label(mainframe)
         self.input_view.grid(row=1, column=0, columnspan=2)
-        self.show(np.ones((100, 100))*255, self.input_view)
+        self.show(np.ones((100, 100)) * 255, self.input_view)
 
         self.__status = tk.Label(mainframe, text="Step 1: Open an Image")
         self.__status.grid(row=2, column=0, sticky=tk.W)
@@ -118,7 +125,8 @@ class SignatureExtractor:
         self.__root.update_idletasks()
         w = self.__root.winfo_screenwidth()
         h = self.__root.winfo_screenheight()
-        size = tuple(int(_) for _ in self.__root.geometry().split('+')[0].split('x'))
+        size = tuple(
+            int(_) for _ in self.__root.geometry().split('+')[0].split('x'))
         x = w / 2 - size[0] / 2
         y = h / 2 - size[1] / 2
         self.__root.geometry("%dx%d+%d+%d" % (size + (x, y)))

@@ -1,9 +1,9 @@
 import os
 import shutil
 """
-Dataset Used: Tobacco800 http://tc11.cvc.uab.es/datasets/Tobacco800_1
-This dataset_docs_with_signs has 1290 images of scanned documents. Some have signatures and some dont. This script uses the xml 
-ground truth files to identify if an image has a signature. If the image has a signature then it is put into the 
+Dataset Used: Tobacco800 -> https://www.kaggle.com/veersingh230799/tobacco800-dataset
+This dataset_docs_with_signs has 1290 images of scanned documents. Some have signatures and some dont. This script uses 
+the xml ground truth files to identify if an image has a signature. If the image has a signature then it is put into the 
 images_with_sig directory otherwise it is put into the images_without_sig directory.
 """
 
@@ -30,11 +30,15 @@ for filename in os.listdir(ground_truth_dir):
     if check_string in read_file:
         with_signature = with_signature + 1
         print(corresponding_image_file_path)
-        shutil.copyfile(corresponding_image_file_path, images_with_sig_dir + '/' + corresponding_image_file_name)
+        shutil.copyfile(
+            corresponding_image_file_path,
+            images_with_sig_dir + '/' + corresponding_image_file_name)
     else:
         without_signature = without_signature + 1
         print(corresponding_image_file_path)
-        shutil.copyfile(corresponding_image_file_path, images_without_sig_dir + '/' + corresponding_image_file_name)
+        shutil.copyfile(
+            corresponding_image_file_path,
+            images_without_sig_dir + '/' + corresponding_image_file_name)
     fhand.close()
 
 print(total)

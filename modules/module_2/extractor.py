@@ -30,9 +30,11 @@ class Extractor:
         extract the signature
     """
 
-    def __init__(
-        self, outlier_weight=3, outlier_bias=100, amplfier=10, min_area_size=10
-    ):
+    def __init__(self,
+                 outlier_weight=3,
+                 outlier_bias=100,
+                 amplfier=10,
+                 min_area_size=10):
         # the parameters are used to remove small size connected pixels outlier
         self.outlier_weight = outlier_weight
         self.outlier_bias = outlier_bias
@@ -74,7 +76,7 @@ class Extractor:
             if region.area > self.min_area_size:
                 total_pixels += region.area
                 nb_region += 1
-        
+
         if nb_region > 1:
             average = total_pixels / nb_region
             # small_size_outlier is used as a threshold value to remove pixels
@@ -86,7 +88,8 @@ class Extractor:
             big_size_outlier = small_size_outlier * self.amplfier
 
             # remove small pixels
-            labeled_image = morphology.remove_small_objects(labels, small_size_outlier)
+            labeled_image = morphology.remove_small_objects(
+                labels, small_size_outlier)
             # remove the big pixels
             component_sizes = np.bincount(labeled_image.ravel())
             too_small = component_sizes > (big_size_outlier)

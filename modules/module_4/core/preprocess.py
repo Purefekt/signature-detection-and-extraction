@@ -61,6 +61,8 @@ def remove_lines(image, kernel=(25, 25)):
 
 def threshold(im):
     blur = cv2.GaussianBlur(im, (25, 25), 0)
-    im_bin_1 = cv2.adaptiveThreshold(blur,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,cv2.THRESH_BINARY_INV,121,7)
-    im_bin_2 = cv2.adaptiveThreshold(im,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,cv2.THRESH_BINARY_INV,35,2)
+    im_bin_1 = cv2.adaptiveThreshold(blur, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
+                                     cv2.THRESH_BINARY_INV, 121, 7)
+    im_bin_2 = cv2.adaptiveThreshold(im, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
+                                     cv2.THRESH_BINARY_INV, 35, 2)
     return np.bitwise_and(im_bin_1, im_bin_2)

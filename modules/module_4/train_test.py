@@ -3,7 +3,6 @@ import os
 from core import extract_features, extract_signatures, train
 from utils import list_images, jaccard_score, f1_score
 
-
 train_data = 'data/train/'
 valid_data = 'data/test/y/'
 
@@ -22,5 +21,5 @@ groundtruth = 'data/test/y_true'
 dice = f1_score(predictions, groundtruth)
 iou = jaccard_score(predictions, groundtruth)
 
-print('F1 Score: %.02f%%' % (dice*100))
-print('Jaccard Index: %.02f%%' % (iou*100))
+print('F1 Score: %.02f%%' % (dice * 100))
+print('Jaccard Index: %.02f%%' % (iou * 100))

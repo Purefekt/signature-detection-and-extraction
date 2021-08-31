@@ -1,7 +1,6 @@
 from all_modules import AllModules
 import json
 import os
-
 """
 This script will be used to predict the bounding boxes of signatures in documents using the 6 modules. This data will
 be serialized into a JSON file containing all images in the following format:
@@ -16,7 +15,8 @@ be serialized into a JSON file containing all images in the following format:
 """
 
 
-def serialize_predicted_bbox(images_dir_path, module_number, json_output_file_dir, json_output_filename):
+def serialize_predicted_bbox(images_dir_path, module_number,
+                             json_output_file_dir, json_output_filename):
     """
     Args:
         images_dir_path: full path of the directory containing test images
@@ -33,22 +33,28 @@ def serialize_predicted_bbox(images_dir_path, module_number, json_output_file_di
 
         # get bboxes
         if module_number == 1:
-            bbox_coordinates = AllModules(input_image_path=current_image_path).module_1()
+            bbox_coordinates = AllModules(
+                input_image_path=current_image_path).module_1()
             predicted_values[current_image_name] = bbox_coordinates
         elif module_number == 2:
-            bbox_coordinates = AllModules(input_image_path=current_image_path).module_2()
+            bbox_coordinates = AllModules(
+                input_image_path=current_image_path).module_2()
             predicted_values[current_image_name] = bbox_coordinates
         elif module_number == 3:
-            bbox_coordinates = AllModules(input_image_path=current_image_path).module_3()
+            bbox_coordinates = AllModules(
+                input_image_path=current_image_path).module_3()
             predicted_values[current_image_name] = bbox_coordinates
         elif module_number == 4:
-            bbox_coordinates = AllModules(input_image_path=current_image_path).module_4()
+            bbox_coordinates = AllModules(
+                input_image_path=current_image_path).module_4()
             predicted_values[current_image_name] = bbox_coordinates
         elif module_number == 5:
-            bbox_coordinates = AllModules(input_image_path=current_image_path).module_5()
+            bbox_coordinates = AllModules(
+                input_image_path=current_image_path).module_5()
             predicted_values[current_image_name] = bbox_coordinates
         elif module_number == 6:
-            bbox_coordinates = AllModules(input_image_path=current_image_path).module_6()
+            bbox_coordinates = AllModules(
+                input_image_path=current_image_path).module_6()
             predicted_values[current_image_name] = bbox_coordinates
 
     # writing json output
@@ -67,24 +73,24 @@ json_output_file_dir = '/Users/veersingh/Desktop/json_output'
 serialize_predicted_bbox(images_dir_path=images_dir_path,
                          module_number=1,
                          json_output_file_dir=json_output_file_dir,
-                         json_output_filename='module_1_results')
+                         json_output_filename='predicted_bbox_1.json')
 serialize_predicted_bbox(images_dir_path=images_dir_path,
                          module_number=2,
                          json_output_file_dir=json_output_file_dir,
-                         json_output_filename='module_2_results')
+                         json_output_filename='predicted_bbox_2.json')
 serialize_predicted_bbox(images_dir_path=images_dir_path,
                          module_number=3,
                          json_output_file_dir=json_output_file_dir,
-                         json_output_filename='module_3_results')
+                         json_output_filename='predicted_bbox_3.json')
 serialize_predicted_bbox(images_dir_path=images_dir_path,
                          module_number=4,
                          json_output_file_dir=json_output_file_dir,
-                         json_output_filename='module_4_results')
+                         json_output_filename='predicted_bbox_4.json')
 serialize_predicted_bbox(images_dir_path=images_dir_path,
                          module_number=5,
                          json_output_file_dir=json_output_file_dir,
-                         json_output_filename='module_5_results')
+                         json_output_filename='predicted_bbox_5.json')
 serialize_predicted_bbox(images_dir_path=images_dir_path,
                          module_number=6,
                          json_output_file_dir=json_output_file_dir,
-                         json_output_filename='module_6_results')
+                         json_output_filename='predicted_bbox_6.json')

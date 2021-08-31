@@ -1,7 +1,6 @@
 import json
 import pandas as pd
 import os
-
 """
 This script converts the ground truth bbox values into a csv file which will be used in the bounding box regression
 CNN model. Once the csv file is ready make sure to delete row 1 and column A since these are the automatic index. 
@@ -15,7 +14,7 @@ for train_image_filename in train_images:
     train_images_filenames_list.append(train_image_filename)
 
 ground_truth_bbox_json = '/Users/veersingh/Desktop/bbox_regression_dataset/ground_truth_bbox.json'
-f = open(ground_truth_bbox_json, )
+f = open(ground_truth_bbox_json,)
 ground_truth_bbox_data = json.load(f)
 f.close()
 

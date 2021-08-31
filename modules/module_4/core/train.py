@@ -16,7 +16,9 @@ def load_dataset(dataset):
         label vector.
     """
     ext = '.npy'
-    classes = [x.split('.')[0] for x in os.listdir(dataset) if x.lower().endswith(ext)]
+    classes = [
+        x.split('.')[0] for x in os.listdir(dataset) if x.lower().endswith(ext)
+    ]
 
     X = []
     y = []
@@ -30,6 +32,7 @@ def load_dataset(dataset):
     X = np.vstack(X)
     y = np.vstack(y).ravel()
     return X, y
+
 
 def train(dataset, outfile):
     """Trains a classifier on the given dataset_docs_with_signs.

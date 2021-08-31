@@ -1,8 +1,8 @@
 import json
 import os
-
 """
-This script will create a json file for the ground truth bbox coordinates for the images in the evaluation dataset_docs_with_signs
+This script will create a json file for the ground truth bbox coordinates for the images in the 
+evaluation dataset
 """
 
 # get filenames for all images in the test directory
@@ -17,7 +17,7 @@ eval_images_ground_truth = dict()
 
 # read the ground truth json file for all images
 ground_truth_bbox_json = '/Users/veersingh/Desktop/bbox_regression_dataset/ground_truth_bbox.json'
-f = open(ground_truth_bbox_json, )
+f = open(ground_truth_bbox_json,)
 ground_truth_bbox_data = json.load(f)
 f.close()
 

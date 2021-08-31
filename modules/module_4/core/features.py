@@ -38,23 +38,23 @@ def get_components(img, preprocess=False):
         # Based on our prior knowlegde that signature is usually found in the
         # bottom-right quarter of the bank check, make rest of image white
         h, w = img.shape
-        img[:int(h/2), :w] = 0
-        img[:h, :int(w/2)] = 0
+        img[:int(h / 2), :w] = 0
+        img[:h, :int(w / 2)] = 0
 
         # Use a heuristic to try and remove horizontal lines from the image
         # This step is intended to remove the guidelines on bank checks
         img = remove_lines(img)
 
     # Find all connected components
-    count, labels, stats, _ = cv2.connectedComponentsWithStats(img, 8, cv2.CV_32S)
-
+    count, labels, stats, _ = cv2.connectedComponentsWithStats(
+        img, 8, cv2.CV_32S)
 
     # For each indiviual component, do
     components = []
-    for id in range(1, count): # (0 is background, so ignore)
+    for id in range(1, count):  # (0 is background, so ignore)
         # Crop out the component
         x, y, w, h = stats[id, 0], stats[id, 1], stats[id, 2], stats[id, 3]
-        component = img[y : y + h, x : x + w]
+        component = img[y:y + h, x:x + w]
 
         # Locate pixels belonging to the component
         idx = np.where(labels == id)
@@ -136,7 +136,10 @@ def extract_features(dataset, preprocess=False, outdir=None):
         label vector.
     """
     # Get list of all training classes
-    classes = [x for x in os.listdir(dataset) if os.path.isdir(os.path.join(dataset, x))]
+    classes = [
+        x for x in os.listdir(dataset)
+        if os.path.isdir(os.path.join(dataset, x))
+    ]
     print(f'Detected {len(classes)} Classes:', classes)
 
     X = []

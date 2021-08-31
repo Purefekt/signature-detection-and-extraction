@@ -24,12 +24,14 @@ class Loader:
         It returns the masks that the bright parts are marked as 255, the rest as 0.
     """
 
-    def __init__(self, low_threshold=(0, 0, 250), high_threshold=(255, 255, 255)):
+    def __init__(self,
+                 low_threshold=(0, 0, 250),
+                 high_threshold=(255, 255, 255)):
         if self._is_valid(low_threshold):
             self.low_threshold = low_threshold
         if self._is_valid(high_threshold):
             self.high_threshold = high_threshold
-    
+
     def __str__(self) -> str:
         s = "\nLoader\n==========\n"
         s += "low_threshold = {}\n".format(self.low_threshold)
@@ -43,7 +45,8 @@ class Loader:
             raise Exception("The threshold must have 3 item (h, s, v).")
         for item in threshold:
             if item not in range(0, 256):
-                raise Exception("The threshold item must be in the range [0, 255].")
+                raise Exception(
+                    "The threshold item must be in the range [0, 255].")
         return True
 
     def get_masks(self, path) -> list:
@@ -67,6 +70,7 @@ class Loader:
 
 
 class _ImageWorker:
+
     def __init__(self, low_threshold: tuple, high_threshold: tuple) -> None:
         self.low_threshold = low_threshold
         self.high_threshold = high_threshold
@@ -84,9 +88,8 @@ class _ImageWorker:
         frame_threshold: numpy array
         """
         frame_HSV = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
-        frame_threshold = cv2.inRange(
-            frame_HSV, self.low_threshold, self.high_threshold
-        )
+        frame_threshold = cv2.inRange(frame_HSV, self.low_threshold,
+                                      self.high_threshold)
         return frame_threshold
 
     def get_image_mask(self, path: str) -> Any:
@@ -95,14 +98,15 @@ class _ImageWorker:
 
 
 class _PdfWorker(_ImageWorker):
+
     def __init__(self, low_threshold, high_threshold):
         super().__init__(low_threshold, high_threshold)
-    
+
     def get_pdf_images(self, path: str) -> list:
         imgs = []
-        with(Image(filename=path,resolution=200)) as source:
-            images=source.sequence
-            pages=len(images)
+        with (Image(filename=path, resolution=200)) as source:
+            images = source.sequence
+            pages = len(images)
             for i in range(pages):
                 imgs.append(images[i])
         return imgs

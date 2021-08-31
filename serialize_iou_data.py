@@ -1,13 +1,50 @@
 import json
+"""
+This script uses the serialized ground truth bbox data, the predicted bbox data and calculates the iou percentage.
+Then it saves that information in a JSON file in the format:
+{
+    "filename.tif": {
+        "ground_truth": [
+            xmin,
+            ymin,
+            xmax,
+            ymax
+        ],
+        "calculated": [
+            xmin,
+            ymin,
+            xmax,
+            ymax
+        ],
+        "intersection": [
+            xmin,
+            ymin,
+            xmax,
+            ymax
+        ],
+        "iou_in_percentage": 0.0
+    },    
+}
+"""
 
 
 def get_evaluation_json(ground_truth_values_json, predicted_values_json,
                         output_json_name):
+    """
+    Args:
+        ground_truth_values_json: path to the json file containing ground truth bbox values
+        predicted_values_json: path to the json file containing predicted bbox values
+        output_json_name: name of the output json file
+
+    Returns:
+        json file containing iou percentages in the given format above ^
+
+    """
     f = open(ground_truth_values_json,)
     ground_truth_values = json.load(f)
     f.close()
 
-    f = open(predicted_values_json, )
+    f = open(predicted_values_json,)
     calculated_values = json.load(f)
     f.close()
 
