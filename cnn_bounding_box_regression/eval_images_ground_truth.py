@@ -2,7 +2,7 @@ import json
 import os
 
 """
-This script will create a json file for the ground truth bbox coordinates for the images in the evaluation dataset
+This script will create a json file for the ground truth bbox coordinates for the images in the evaluation dataset_docs_with_signs
 """
 
 # get filenames for all images in the test directory

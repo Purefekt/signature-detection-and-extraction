@@ -2,7 +2,7 @@ import os
 import shutil
 """
 Dataset Used: Tobacco800 http://tc11.cvc.uab.es/datasets/Tobacco800_1
-This dataset has 1290 images of scanned documents. Some have signatures and some dont. This script uses the xml 
+This dataset_docs_with_signs has 1290 images of scanned documents. Some have signatures and some dont. This script uses the xml 
 ground truth files to identify if an image has a signature. If the image has a signature then it is put into the 
 images_with_sig directory otherwise it is put into the images_without_sig directory.
 """

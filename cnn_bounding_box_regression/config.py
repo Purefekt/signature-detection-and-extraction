@@ -1,4 +1,4 @@
-# path to training dataset
+# path to training dataset_docs_with_signs
 train_images_path = '/Users/veersingh/Desktop/bbox_regression_dataset/train'
 
 # path to bbox csv
@@ -7,7 +7,7 @@ ground_truth_bbox_path = '/Users/veersingh/Desktop/bbox_regression_dataset/groun
 # path to trained model
 model_path = 'bbox_regression_cnn.h5'
 
-# path to evaluation dataset
+# path to evaluation dataset_docs_with_signs
 eval_images_path = '/Users/veersingh/Desktop/bbox_regression_dataset/eval'
 
 # test file names

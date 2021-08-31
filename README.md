@@ -1,5 +1,22 @@
 # Signature Detection and Extraction
 
+## Summary
+This repository explore signature detection and extraction using image processing methods and convolutional neural networks.
+- For image processing methods we have 6 modules (3 open source modules and 3 hybrids of those open source modules)
+- For CNNs we have a custom CNN to detect if a given document has a signature or not and a CNN with bounding box regression to get the bounding box coordinates for a given document.
+
+## Image Processing modules
+- Module 1 -> Adapted from https://github.com/ahmetozlu/signature_extractor. This project aims at removing the signatures from a given document. I have modified it to extract the signature instead and then used morphological techniques to find the bounding box for the signature.
+- Module 2 -> Adapted from https://github.com/EnzoSeason/signature_detection. This project extracts the signature in a given document, but it didnt output the bounding box coordinates. I modified this to instead output the bounding box coordinates of the signature.
+- Module 3 -> This is a hybrid of modules 1 and 2.
+- Module 4 -> Adapted from https://github.com/saifkhichi96/signature-extraction. This project has a gui, it lets the user pick an image and then extracts the signature using a decision tree classifier which was trained a dataset of 8000 signatures. I modified it by removing the gui since it was really slow while testing on 700+ images and also made it output just the bounding box coordinates for the signature.
+- Module 5 -> Hybrid of modules 1 and 4.
+- Module 6 -> Hybrid of modules 1,2 and 4.
+
+## Convolutional Neural Network
+- Custom CNN classifier -> A custom CNN was built using Keras. This CNN was trained on the entire Tobacco800 dataset (1290 images). Images with a signature (776 images) were labelled as 1 and images without a signature were labelled as 0 (514).
+- CNN based on VGG16 with bounding box regression layer -> A pre existing CNN architecture VGG16 was used. The final fully connected layer was removed and replaced with a bounding box regression layer. The dataset was the 776 images (subset of tobacco800) which had signatures. This model was used to predict the bounding box coordinates of signatures on documents.
+
 ## Evaluating Different Resources
 This Jupyter notebook contains the evaluation - [evaluating_different_signature_detection_methods.ipynb](evaluating_different_signature_detection_methods.ipynb)
 
@@ -51,11 +68,3 @@ To use conda environment in Jupyter Notebook, issue the following command
 ```
 python -m ipykernel install --user --name=signature-detection-and-extraction
 ```
-
-## Resources
-- Method 1 --> Adapted from https://github.com/ahmetozlu/signature_extractor
-- Method 2 --> https://github.com/EnzoSeason/signature_detection
-- Method 3 --> Hybrid of Method 1 and 2
-- Method 4 --> Adapted from https://github.com/saifkhichi96/signature-extraction
-- Method 5 --> Hybrid of Method 1 and 4
-- Method 6 --> Hybrid of 1,2 and 4
