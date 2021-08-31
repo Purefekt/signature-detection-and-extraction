@@ -109,6 +109,7 @@ Project root/
 │   │   └── decision-tree.pkl
 │   ├── module_1/
 │   │   ├── ...
+│   ├── module_1.pdf
 │   ├── module_2/
 │   │   ├── ...
 │   └── module_4/
@@ -144,6 +145,7 @@ Project root/
 - ```evaluating_different_signature_extraction_modules.ipynb``` -> results for the 6 modules used for signature extraction
 - ```modules/model_4_5_6/decision-tree.pkl``` -> trained decision tree model used by modules 4,5,6
 - ```modules/module_1/``` -> all files used by module 1
+- ```modules/module_1.pdf``` -> pdf explaining how module 1 works
 - ```modules/module_2/``` -> all files used by module 2
 - ```modules/module_4/``` -> all files used by module 3
 - ```serialize_ground_truth_bbox.py``` -> python script to convert xml ground truth bbox data files into one json file
